@@ -1,0 +1,97 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+credentials.json
+service-account.json
+token.json
+*.pem
+*.key
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code and IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs and Temporary Files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# LangChain and RAG
+.langchain/
+.langsmith/
+chroma/
+chroma_db/
+vectorstore/
+vector_store/
+faiss_index/
+faiss_store/
+index.faiss
+index.pkl
+
+# AI Models
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.gguf
+models/
+checkpoints/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js and n8n
+node_modules/
+.npm/
+.n8n/
+n8n_data/
+n8n_storage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build and Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+coverage/
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated Outputs (optional)
+generated/
+outputs/
+artifacts/
